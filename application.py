@@ -11,4 +11,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1>WELCOME TO DOWNER WITHINGS!</h1>"
+    return flask.render_template('home.html')
