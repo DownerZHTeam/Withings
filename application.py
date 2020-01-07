@@ -11,4 +11,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return flask.render_template('home.html')
+    return "Hello World!"
