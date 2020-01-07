@@ -11,4 +11,4 @@ app = Flask(__name__)
 
 @app.route("/")
 def hello():
-    return "<h1><center><u>User authorization successful for the Withings Fatigue Management Trial at Downer</u></center></h1><p>Please use the state and code for generating access token</p> "
+    return "<h1><center>User authorization successful for the Withings Fatigue Management Trial at Downer</center></h1><p>Please use the state and code for generating access token</p> "
